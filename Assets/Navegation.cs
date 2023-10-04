@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Play_btn : MonoBehaviour
+public class Navegation : MonoBehaviour
 {
     private string game = "Game";
     private string openScene = "SampleScene";
