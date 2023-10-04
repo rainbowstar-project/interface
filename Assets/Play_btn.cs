@@ -5,7 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class Play_btn : MonoBehaviour
 {
-    public void go_play(string sceneName) {
+    private string game = "Game";
+    private string openScene = "SampleScene";
+    public void loadScene(string sceneName) {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void loadGame() {
+        SceneManager.LoadScene(game);
+    }
+
+    public void loadOpenScene() {
+        SceneManager.LoadScene(openScene);
     }
 }
