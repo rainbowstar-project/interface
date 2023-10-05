@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Navegation : MonoBehaviour
 {
     private string game = "Game";
-    private string openScene = "SampleScene";
+    private string openScene = "HomePage";
     public void loadScene(string sceneName) {
         SceneManager.LoadScene(sceneName);
     }
